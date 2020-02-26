@@ -4,6 +4,7 @@ import { DepartmentListComponent } from './department-list/department-list.compo
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomePageComponent } from './home-page/home-page.component';
+import { DepartmentDetailComponent } from './department-detail/department-detail.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,10 @@ const routes: Routes = [
   {
     path: 'departments', 
     component: DepartmentListComponent
+  },
+  {
+    path: 'departments/:id', 
+    component: DepartmentDetailComponent
   },
   {
     path: 'employees', 
@@ -40,5 +45,6 @@ export const routingComponents = [
   HomePageComponent,
   DepartmentListComponent,
   EmployeeListComponent, 
-  PageNotFoundComponent
+  PageNotFoundComponent,
+  DepartmentDetailComponent,
 ];

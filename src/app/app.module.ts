@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
+// import { DepartmentDetailComponent } from './department-detail/department-detail.component';
 // import { HomePageComponent } from './home-page/home-page.component';
 // import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 // import { DepartmentListComponent } from './department-list/department-list.component';
@@ -11,7 +12,7 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [
     AppComponent,
-    routingComponents,
+    routingComponents
     // HomePageComponent,
     // PageNotFoundComponent
     // DepartmentListComponent,
